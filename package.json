@@ -1,0 +1,22 @@
+{
+  "name": "sensortag-tea-temp",
+  "version": "1.0.0",
+  "description": "Is the tea ready?",
+  "main": "tea-time.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "osx-notification",
+    "sensortag"
+  ],
+  "scripts": {
+    "test": "jshint *.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "osx-notifier": "^0.2.1",
+    "sensortag": "^0.1.9"
+  }
+}
