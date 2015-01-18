@@ -4,19 +4,16 @@
   "description": "Is the tea ready?",
   "main": "tea-time.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jshint *.js && nodeunit test.js"
   },
   "keywords": [
     "osx-notification",
     "sensortag"
   ],
-  "scripts": {
-    "test": "jshint *.js"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "osx-notifier": "^0.2.1",
+    "node-notifier": "^4.0.3",
     "sensortag": "^0.1.9"
   }
 }
